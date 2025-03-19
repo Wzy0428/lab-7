@@ -34,6 +34,12 @@ button.theme-switcher {
   color: #000000;
 }
 
+/* weather styles */
+body.dark .weather-info {
+  background-color: #ffffff; 
+  color: #000000;
+}
+
 /* Projects Section Styles */
 .projects-title {
   margin-top: 30px;
