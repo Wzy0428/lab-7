@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button.theme-switcher {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button.theme-switcher {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Projects Section Styles */
+.projects-title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.project-card {
+  margin: 30px;
+  padding: 40px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-color: #e0f7fa; /* Light blue background */
+  color: #000000; /* Dark text color */
+}
+
+.project-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-details {
+  margin-top: 30px;
+}
+
+.project-details ul {
+  padding-left: 40px;
+}
+
+/* Dark Mode Adjustments */
+body.dark .project-card {
+  background-color: #2f2c2c; /* Darker background for dark theme */
+  color: #ffffff; /* White text color for dark theme */
+}
+
+body.dark .project-link {
+  color: #1e90ff; /* Lighter blue for links in dark mode */
+}
+
+.theme-switcher {
+  margin-top:20px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.theme-switcher:hover {
+  background-color: #b8f0eb;
+}
+
+/* Skills Page Styles */
+.skills-container {
+  padding: 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.search-input {
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.clear-filters-button {
+  padding: 10px 20px;
+  background-color: #2faf9c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.clear-filters-button:hover {
+  background-color: #e53935;
+}
+
+.category-filters {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.category-filters label {
+  font-size: 1rem;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.category-filters input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.filtered-skill {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+  color: #00796b;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin-left: 30px;
+}
+
+.filtered-skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Adjustments */
+body.dark .skills-container {
+  background-color: #252323;
+  color: #ffffff;
+}
+
+body.dark .clear-filters-button {
+  background-color: #f44336;
+}
+
+body.dark .filtered-skill {
+  background-color: #535151;
+  color: #ffffff;
+}
+
+body.dark .filtered-skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.dark .search-input {
+  border-color: #00796b;
+  background-color: #535151;
+  color: white;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+}
